@@ -1,0 +1,13 @@
+a = input("Choose a string:   ")
+if (len(a) % 2 == 0):
+    print("String is even length ")
+else:
+    print("String is odd length ")
+
+for index in range(len(a)):
+    if(a[index] != a[len(a)-1-index]):
+        print("Not palyndrome")
+        break
+    if(index == (len(a) - 1) ):
+        print("Its a palyndrome")
+
