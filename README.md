@@ -1,4 +1,4 @@
 # python_practice
-For learning python.
+Python learning.
 
 Excercises are from: http://www.practicepython.org/
